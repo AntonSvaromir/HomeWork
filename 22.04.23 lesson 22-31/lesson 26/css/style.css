@@ -1,0 +1,30 @@
+.element-1 {
+   width: 100px;
+   height: 200px;
+   background: #df5312;
+   border: 5px solid black;
+   position: absolute;
+   left: 30%;
+   top: 20%;
+   transition: 3s 2s;
+}
+.element-1:hover {
+   border-color: #0e40ad;
+}
+
+.element-2 {
+   width: 100px;
+   height: 200px;
+   background: #9c103f;
+   border: 5px solid black;
+   position: absolute;
+   left: 50%;
+   top: 20%;
+   transition-duration: 3s;
+   transition-delay: 2s;
+}
+.element-2:hover {
+   border-color: #0e40ad;
+}
+
+

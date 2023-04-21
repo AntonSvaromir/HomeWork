@@ -1,0 +1,18 @@
+.element {
+   min-width: 20px;
+   min-height: 100px;
+   background: #032502;
+   position: fixed;
+   bottom: 100px;
+   right: 50px;
+   left: 50%;
+
+}
+
+p {
+   font-size: 30px;
+   color: #ee1b1b;
+   text-align: center;
+}
+
+

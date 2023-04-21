@@ -1,0 +1,17 @@
+.mesh {
+   display: grid;
+   grid-template:  auto auto / 1fr 1fr minmax(100px, 200px) 1fr 1fr;
+   margin: 25px;
+   border-top: 1px solid #05298d;
+   border-left: 1px solid #05298d;
+}
+
+.mesh__cell {
+   font-size: 25px;
+   text-align: center;
+   padding: 20px 10px;
+   border-right: 1px solid #05298d;
+   border-bottom: 1px solid #05298d;
+}
+
+
