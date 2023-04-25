@@ -192,6 +192,7 @@ html, body {
 
 .header__row {
    color: #1E212C;
+   margin-bottom: 80px;
 }
 
 .header__row-list {
