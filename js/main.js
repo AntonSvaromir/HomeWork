@@ -64,4 +64,18 @@ $(function  () {
    //    $(this).toggleClass('program__accordeon-link--active')
    //    $(this).children('.program__acc-text').slideToggle()
    // })
+
+   $(".header__nav-list a, .header__top-btn, .footer__bottom-linck").on("click", function (e) {
+		//отменяем стандартную обработку нажатия по ссылке
+		e.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top-60}, 1000);
+	});
 })
