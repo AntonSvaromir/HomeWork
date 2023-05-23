@@ -7,12 +7,15 @@
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-   <title>Createx</title>
+   <title>Cartex</title>
 </head>
 <body id="body">
    <div class="wrapper">
-
+      <div class="overlay"></div>
       <header class="header">
+         <a class="burger" href="#">
+            <span></span>
+         </a>
          <div class="header__top">
             <div class="container">
                <div class="header__top__inner">
@@ -71,7 +74,7 @@
                            <a class="header__content-btn button" href="#">Explore courses</a>
                         </div>
                      </div>
-                     <img class="header-img" src="images/hero-img.svg" alt="" >
+                     <img class="header__img" src="images/hero-img.svg" alt="" >
                   </div>
                   <div class="header__row">
                      <ul class="header__row-list">
@@ -518,6 +521,7 @@
                               </div>
                         </div>
                      </div>
+                     <div class="team__dots"></div>
                   </div>
                </div>
             </div>
@@ -816,8 +820,8 @@
                                  </div>
                                  <h4 class="blog__item-title">What is traffic arbitrage and does it really make money?</h4>
                                  <p class="blog__item-text">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+                                 <div class="blog__item-button">Listen</div>
                               </div>
-                              <div class="blog__item-button">Listen</div>
                            </article>
                         </a>
                      </li>
@@ -836,8 +840,8 @@
                                     </div>
                                     <h4 class="blog__item-title">What to do and who to talk to if you want to get feedback on the product</h4>
                                     <p class="blog__item-text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...</p>
+                                    <div class="blog__item-button">Watch</div>
                               </div>
-                              <div class="blog__item-button">Watch</div>
                            </article>
                         </a>
                      </li>
@@ -856,8 +860,8 @@
                                     </div>
                                     <h4 class="blog__item-title">Should you choose a creative profession if you are attracted to creativity?</h4>
                                     <p class="blog__item-text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</p>
+                                    <div class="blog__item-button">Read</div>
                               </div>
-                              <div class="blog__item-button">Read</div>
                            </article>
                         </a>
                      </li>
@@ -951,7 +955,7 @@
                   <div class="questions__image">
                      <img src="images/form-img.svg" alt="">                     
                   </div>
-                  <div class="questions__contant">
+                  <div class="questions__content">
                      <div class="questions__heading heading">
                         <p class="heading__subtitle">Any questions?</p>
                         <h2 class="heading__title">Drop us a line</h2>
@@ -1059,27 +1063,27 @@
                      </ul>
                   </div>
                   <div class="footer__top-col">
-                     <h3 class="footer__top-title">SITE MAP</h3>
+                     <h3 class="footer__top-title footer__top-title--slide">SITE MAP</h3>
                      <ul class="footer__top-list">
                         <li class="footer__top-item">
-                           <a class="footer__item-link" href="#">About Us</a>
+                           <a class="footer__item-link" href="#about">About Us</a>
                         </li>
                         <li class="footer__top-item">
-                           <a class="footer__item-link" href="#">Courses</a>
+                           <a class="footer__item-link" href="#directions">Courses</a>
                         </li>
                         <li class="footer__top-item">
                            <a class="footer__item-link" href="#">Events</a>
                         </li>
                         <li class="footer__top-item">
-                           <a class="footer__item-link" href="#">Blog</a>
+                           <a class="footer__item-link" href="#blog">Blog</a>
                         </li>
                         <li class="footer__top-item">
-                           <a class="footer__item-link" href="#">Contacts</a>
+                           <a class="footer__item-link" href="#questions">Contacts</a>
                         </li>
                      </ul>
                   </div>
                   <div class="footer__top-col">
-                     <h3 class="footer__top-title">COURSES</h3>
+                     <h3 class="footer__top-title footer__top-title--slide">COURSES</h3>
                      <ul class="footer__top-list">
                         <li class="footer__top-item">
                            <a class="footer__item-link" href="#">Marketing</a>
@@ -1099,7 +1103,7 @@
                      </ul>
                   </div>
                   <div class="footer__top-col">
-                     <h3 class="footer__top-title">CONTACT US</h3>
+                     <h3 class="footer__top-title footer__top-title--slide">CONTACT US</h3>
                      <ul class="footer__top-list">
                         <li class="footer__top-item">
                            <a class="footer__item-link" href="tel:4055550128">
