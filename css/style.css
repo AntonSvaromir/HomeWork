@@ -44,7 +44,7 @@ html, body {
 }
 
 .main__about{
-   margin-bottom:160px;
+   padding-bottom:160px;
 }
 
 .main__directions {
@@ -2046,6 +2046,9 @@ html, body {
    }
 
    /* --------------------------------------------- */
+   .main {
+      padding: 0;
+   }
    .main__about,
    .main__program {
       padding: 60px 0 100px 0;
